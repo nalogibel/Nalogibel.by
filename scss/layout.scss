@@ -1,0 +1,44 @@
+// Файл с общими стилями
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #24312d;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+section {
+  scroll-margin-top: 100px;
+}
+
+.container {
+  max-width: 1280px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+// Оформление для заголовков
+.title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.2;
+  color: #0e6c67;
+  text-transform: uppercase;
+  text-align: center;
+  scroll-margin-top: 100px;
+
+  @media (max-width: 768px) {
+    font-size: 35px;
+  }
+
+  @media (max-width: 576px) {
+    font-size: 30px;
+  }
+}
